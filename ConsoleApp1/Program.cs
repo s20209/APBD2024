@@ -9,3 +9,14 @@ static double getAvgNumber(int[] numbers)
 {
     return numbers.Average();
 }
+
+static int getMaxNumber(int[] numbers)
+{
+    int mxValue = 0;
+    foreach(int i in numbers)
+    {
+        if (mxValue < i)
+            mxValue = i;
+    }
+    return mxValue;
+}
