@@ -13,6 +13,7 @@ static double getAvgNumber(int[] numbers)
 static int getMaxNumber(int[] numbers)
 {
     int mxValue = 0;
+    Console.WriteLine("What conflict?");
     foreach(int i in numbers)
     {
         if (mxValue < i)
